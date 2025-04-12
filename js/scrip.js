@@ -56,9 +56,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'rigth' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings:['Estudiante Universitario', 'De La', 'UPLA',],
+    strings:['un Estudiante Universitario', 'De La UPLA',],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 1000,
+    
     loop: true
 });
