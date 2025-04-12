@@ -395,6 +395,33 @@ span{
     color: var(--second-bg-color);
 }
 
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos de manera equitativa */
+    margin-bottom: 10px; /* Espaciado entre enlaces */
+}
+
+.link-container i {
+    margin-right: 30px; /* Espaciado entre el ícono y el texto */
+    color: var(--main-color); /* Color del ícono */
+    font-size: 30px; /* Tamaño del ícono */
+}
+
+.link-container span {
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    color: white; /* Color del texto */
+    text-align: center; /* Justifica el texto */
+    font-weight: bold; /* Negrita */
+}
+
+.link-container a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaciado entre el ícono y el texto */
+}
 
 /* BREAKPOINTS */
 
